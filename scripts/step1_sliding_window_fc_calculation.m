@@ -15,7 +15,7 @@ clear all
 paths.home = (cd);
 addpath(genpath(paths.home))
 
-paths.out = fullfile(paths.home,'results','dynamic_ica_flex');
+paths.out = fullfile(paths.home,'results','dynamic_flex');
 if ~exist(paths.out)
     mkdir(paths.out);
 end
