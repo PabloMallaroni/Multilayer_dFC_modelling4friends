@@ -74,4 +74,4 @@ end
 
 %% Save output
 
-save(fullfile(paths.out,'sliding_window_ica_fc.mat'),"dynamic_correlation_matrices")
+save(fullfile(paths.out,'sliding_window_fc.mat'),"dynamic_correlation_matrices")
