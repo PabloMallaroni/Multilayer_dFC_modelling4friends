@@ -8,3 +8,7 @@ Thus, works with cells of subject x session containing timeseries x roi data as 
 
 The idea is to have consistent code for this kind of approach so please try on your stuff
 If you have suggestions for better sliding windows please feel free to branch and debug
+
+TBD: step 5 with plots and stats (depends on your design):
+but you can treat step4  as a net x net ttest 
+and step 2 q_norm result as a single array of sub x cond normalised q_modularity values
