@@ -1,0 +1,6 @@
+# ignore all .mat files
+*.mat
+
+# ignore all niftis when pushing
+*.nii
+*.nii.gz
