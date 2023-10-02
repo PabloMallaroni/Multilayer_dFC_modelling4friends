@@ -19,7 +19,7 @@ if ~exist(paths.out)
 end
 
 %% Data
-load(fullfile(paths.home,'results','dynamic_ica_flex','sliding_window_ica_fc.mat'));
+load(fullfile(paths.home,'results','dynamic_ica_flex','sliding_window_fc.mat'));
 M = dynamic_correlation_matrices;
 n_sub = size(M, 1);
 n_ses = size(M, 2);
