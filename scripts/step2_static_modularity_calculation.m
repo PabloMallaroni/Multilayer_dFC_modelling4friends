@@ -21,7 +21,7 @@ addpath(genpath(paths.home))
 %adds bct and genlouvain tools
 
 
-paths.out = fullfile(paths.home,'results','dynamic_ica_flex');
+paths.out = fullfile(paths.home,'results','dynamic_flex');
 if ~exist(paths.out)
     mkdir(paths.out);
 end
