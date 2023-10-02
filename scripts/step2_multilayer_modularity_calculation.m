@@ -13,13 +13,13 @@ clear all
 paths.home = (cd);
 addpath(genpath(paths.home))
 
-paths.out = fullfile(paths.home,'results','dynamic_ica_flex'); 
+paths.out = fullfile(paths.home,'results','dynamic_flex'); 
 if ~exist(paths.out)
     mkdir(paths.out);
 end
 
 %% Data
-load(fullfile(paths.home,'results','dynamic_ica_flex','sliding_window_fc.mat'));
+load(fullfile(paths.home,'results','dynamic_flex','sliding_window_fc.mat'));
 M = dynamic_correlation_matrices;
 n_sub = size(M, 1);
 n_ses = size(M, 2);
