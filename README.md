@@ -32,4 +32,4 @@ denoised sub x ses cell with time x roi
 Brain connectivity toolbox
 Gen louvain toolbox
 
-# Note: python or c++ would be more elegant (less parforing(
+# Note: python or c++ would be more elegant (less parforing)
